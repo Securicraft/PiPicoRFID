@@ -51,12 +51,12 @@ class RFIDCard:
                                 data = self.rdr.read(8)
                                 return (data)
                             else:
-                                print("AUTH ERR")
+                                print("AUTH. Error")
                         else:
                             print("Failed to select tag")
 
         except KeyboardInterrupt:
-            print("EXITING PROGRAM.")
+            print("Exit Program.")
 
 
     def WriteData(self, databytes):
@@ -86,11 +86,11 @@ class RFIDCard:
                                 else:
                                     print("FAILED")
                             else:
-                                print("AUTH ERR")
+                                print("AUTH. Error)
                         else:
                             print("Failed to select tag")
         except KeyboardInterrupt:
-            print("EXITING PROGRAM.")
+            print("Exit Program.")
 
 
 def RUN():
