@@ -63,12 +63,12 @@ def RUN():
                             print("RAW DATA: " + str(hexstr))
                             rdr.stop_crypto1()
                         else:
-                            print("AUTH ERR")
+                            print("AUTH. Error")
                     else:
                         print("Failed to select tag")
 
     except KeyboardInterrupt:
-        print("EXITING PROGRAM")
+        print("Exit Program")
 
 if __name__=="__main__":
     RUN()
