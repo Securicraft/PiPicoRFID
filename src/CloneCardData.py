@@ -86,7 +86,7 @@ class RFIDCard:
                                 else:
                                     print("FAILED")
                             else:
-                                print("AUTH. Error)
+                                print("AUTH. Error")
                         else:
                             print("Failed to select tag")
         except KeyboardInterrupt:
